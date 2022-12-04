@@ -40,7 +40,7 @@
 <!--            <li class="nav-item">-->
 <!--              <a class="nav-link" href="">Map</a>-->
 <!--            </li>-->
-            
+
           </ul>
         </div>
 
@@ -80,14 +80,7 @@
       <input type="time" id="Time" name="image_time" class="rounded">
     </div>
 
-    <div class="col-md-6">
-      <label for="Lat" class="form-label">Latitude</label>
-      <input type="number" step="0.01" class="form-control rounded" id="Lat" name = "latitude">
-    </div>
-    <div class="col-md-6">
-      <label for="Lng" class="form-label">Longitude</label>
-      <input type="number" step="0.01" class="form-control rounded" id="Lng" name = "longitude">
-    </div>
+    
     <div>
             <form class="p-3text-center"action="/", method="post" enctype="multipart/form-data">
               <div class="custom-file d-inline-flex p-2 bd-highlight">
@@ -117,6 +110,7 @@
       <div class="toast-body">
         The intensity of the uploaded image is: {{prediction}} knots
         <div class="mt-2 pt-2 border-top">
+
           <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
         </div>
       </div>
